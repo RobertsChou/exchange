@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- slider offset -->
+    <dimen name="slidingmenu_offset">120dp</dimen>
+    <dimen name="shadow_width">20dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <integer name="num_cols">1</integer>
+
+    <!-- 字体大小 -->
+    <dimen name="item_text_min">14sp</dimen>
+    <dimen name="item_text_min_dp">13dip</dimen>
+    <dimen name="item_text_xmin">10sp</dimen>
+    <dimen name="item_text_normal">17sp</dimen>
+    <dimen name="item_text_max">20sp</dimen>
+    <dimen name="item_text_xmax">25sp</dimen>
+    <dimen name="item_text_midum">15dp</dimen>
+
+    <!-- 行/列间距 -->
+    <dimen name="spacing_xxxmin">1dip</dimen>
+    <dimen name="spacing_xxmin">3dip</dimen>
+    <dimen name="spacing_xmin">5dip</dimen>
+    <dimen name="spacing_min">10dip</dimen>
+    <dimen name="spacing_normal">15dip</dimen>
+    <dimen name="spacing_midum">20dip</dimen>
+    <dimen name="spacing_max">25dip</dimen>
+    <dimen name="spacing_xmax">30dip</dimen>
+    <dimen name="spacing_xxmax">40dip</dimen>
+
+</resources>

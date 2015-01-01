@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- 继承ActionBar父类样式 -->
+    <style name="Theme.DEMO" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.DEMO.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.DEMO.ActionBar</item>
+        <item name="homeAsUpIndicator">@drawable/body_back</item>
+        <item name="android:homeAsUpIndicator">@drawable/body_back</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:actionBarSize">48dip</item>
+        <item name="actionBarSize">48dip</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+       <!--  <item name="windowAnimationStyle">@style/AnimationActivity</item> 
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>  -->
+    </style>
+
+    
+    <!-- 标题栏的样式  为了兼容考虑，所有样式的相关item需要写2遍 -->
+    <style name="Widget.DEMO.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@color/gray_color</item>
+        <item name="android:backgroundStacked">@color/gray_color</item>
+        <item name="android:backgroundSplit">@color/gray_color</item>
+        <item name="android:titleTextStyle">@style/Widget.DEMO.ActionBar.Title</item>
+    </style>
+
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu" parent="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:textAllCaps">@bool/abs__config_actionMenuItemAllCaps</item>
+    </style>
+
+    <!-- 标题栏的标题样式 -->
+    <style name="Widget.DEMO.ActionBar.Title" parent="@android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/item_text_normal</item>
+    </style>
+
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@color/blue_color</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+    <style name="Theme.Start" parent="Theme.Sherlock.Light">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/body_bg</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- <style name="AnimationActivity" parent="Theme.Sherlock.Light">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/back_exit</item>
+    </style>
+    
+    <style name="AnimationDialog" parent="Theme.Sherlock.Light">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_bottom</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_bottom</item>
+    </style> -->
+    
+</resources>

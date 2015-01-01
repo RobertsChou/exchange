@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">exchange</string>
+    <string name="what_is_this">这是什么</string>
+    <string name="exchange_explanation">这是一款关于学习，关于交友的软件，
+                                        这是一款让保持兴奋的软件，
+                                        我相信只要你想就可以改变你的生活！！！</string>
+
+    <!-- net exception -->
+    <string name="data_exception">数据返回错误</string>
+    <string name="net_exception">网络连接问题</string>
+    
+    <!-- activity Continue-->
+    
+    <!-- activity splash -->
+    <string name= "splash_up">未来</string>
+    <string name= "splash_down">新生活方式</string>
+    
+    <!-- activity main -->
+    <string name= "main_title">青春</string>
+</resources>

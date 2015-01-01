@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="slider_menu">
+        <item>我</item>
+        <item>我的活动记录</item>
+        <item>技能拍卖场</item>
+        <item>即兴拍卖场</item>
+        <item>我的拍友</item>
+        <item>我的拍卖空间</item>
+        <item>摇一摇</item>
+    </string-array>
+
+    <string-array name="content_names">
+        <item>我</item>
+        <item>我的活动记录</item>
+        <item>技能拍卖场</item>
+        <item>即兴拍卖场</item>
+        <item>我的拍友</item>
+        <item>我的拍卖空间</item>
+        <item>摇一摇</item> 
+    </string-array>
+
+</resources>
